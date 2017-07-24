@@ -31,6 +31,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'logstash-codec-json_lines'
 
   s.add_development_dependency 'logstash-devutils'
+  s.add_runtime_dependency 'msgpack'
   s.add_development_dependency 'flores', '~> 0.0.6'
   s.add_development_dependency 'stud', '~> 0.0.22'
 end
